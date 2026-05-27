@@ -20,7 +20,9 @@ elif  [[ $1 = "-a" ]]; then
 	done
 
 elif  [[ $1 = "-c" ]]; then
-	#TODO: Combine with multiple scores on the same page (e.g. Cradle song and La Fede)
+	#TODO:	- Combine with multiple scores on the same page (e.g. Cradle song and La Fede)
+	#	- Add title and end pages
+
 	pdfunite pdf/*.pdf 114-songs.pdf
 
 else
